@@ -66,7 +66,9 @@ a{
   text-decoration: none;
 }
 
-img { height: auto; }
+img { 
+  height: auto;
+}
 
 button {
   background: none;
@@ -132,7 +134,7 @@ body.active{
 
 .has-bg-image {
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   background-size: cover;
   height: 100vh;
 }
@@ -594,7 +596,11 @@ body.active{
 
   .service-card .card-title { margin-block: 0 10px; }
 
-  .footer-top { grid-template-columns: 1fr 0.5fr 0.5fr 0.75fr; }
+  .footer-top { 
+      grid-template-columns: 1fr 0.5fr 0.5fr 0.75fr; 
+      margin-top: 100vh;
+  }
+  
 
 }
 
