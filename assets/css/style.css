@@ -151,6 +151,10 @@ body.active{
   font-size: var(--fs-4); 
 }
 
+.logo{
+  z-index: 100;
+}
+
 .btn{
   font-size: var(--fs-6);
   font-weight: var(--fw-700);
